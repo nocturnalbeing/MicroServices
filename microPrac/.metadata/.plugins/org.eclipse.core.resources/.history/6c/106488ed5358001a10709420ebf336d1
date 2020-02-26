@@ -59,7 +59,10 @@ class ProductApplicationTests {
 
 	}
 
-	/*
-	 * @Test void testDelete() { if (repo.existsById(5)) { repo.deleteById(3); } }
-	 */
+	@Test
+	void testDelete() {
+		if (repo.existsById(5)) {
+			repo.deleteById(3);
+		}
+	}
 }

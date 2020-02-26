@@ -9,6 +9,5 @@ import com.product.entities.Product;
 public interface ProductRepository extends CrudRepository<Product, Integer>{
 
 	List<Product> findByName(String name);
-	List<Product> findByNameAndPrice(String name,Double price);
 
 }

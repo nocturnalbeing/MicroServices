@@ -1,0 +1,64 @@
+package com.product;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.product.entities.Product;
+import com.product.repository.ProductRepository;
+
+@SpringBootTest
+class ProductApplicationTests {
+	@Autowired
+	private ProductRepository repo;
+
+	@Test
+	void contextLoads() {
+	}
+	/*
+	 * @Test void createTest() { Product product=new Product();
+	 * product.setName("Iphone"); product.setPrice(1000d);
+	 * product.setDesc("double cam"); repo.save(product);
+	 * 
+	 * }
+	 */
+	
+	@Test
+	void testRead() 
+	{
+		List<Product> productOptional=repo.findByNameAndPrice("Iphone", 1200d);
+		Product product = null;
+		
+		if(productOptional!=null) {productOptional.forEach(a-> System.out.println(a.getName()));}
+		 
+	
+	}
+	@Test
+	void testUpdate() 
+	{
+		Optional<Product> productOptional=repo.findById(3);
+		Product product = null;
+		if(productOptional.isPresent()) {
+		 product=productOptional.get();
+		}
+		else {
+			//assertFalse(true);
+		}
+		product.setPrice(1200d);
+		
+		Product savedProduct = repo.save(product);
+		assertEquals(savedProduct.getPrice(), 1200d);
+	}
+	@Test
+	void testDelete() 
+	{
+		if(repo.existsById(5)) {
+		repo.deleteById(3);
+	}}
+}

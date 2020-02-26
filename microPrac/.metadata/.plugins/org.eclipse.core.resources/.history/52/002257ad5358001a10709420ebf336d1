@@ -30,11 +30,10 @@ class ProductApplicationTests {
 
 	@Test
 	void testRead() {
-		List<Product> productOptional = repo.findByNameAndPrice("Iphone", 1000d);
+		List<Product> productOptional = repo.findByNameAndPrice("Iphone", 1200d);
 		Product product = null;
 		
 		if (productOptional != null) {
-			System.out.println("=========================================================================>"+productOptional.size()+"size");
 			productOptional.forEach(a -> System.out.println("name is " + a.getName()));
 		} else {
 			System.out.println("=========================================================================>");
@@ -59,7 +58,10 @@ class ProductApplicationTests {
 
 	}
 
-	/*
-	 * @Test void testDelete() { if (repo.existsById(5)) { repo.deleteById(3); } }
-	 */
+	@Test
+	void testDelete() {
+		if (repo.existsById(5)) {
+			repo.deleteById(3);
+		}
+	}
 }
