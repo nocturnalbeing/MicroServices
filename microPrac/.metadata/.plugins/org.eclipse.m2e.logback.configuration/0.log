@@ -199,3 +199,31 @@
 2020-02-26 10:23:28,139 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-02-26 10:23:28,143 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-02-26 10:23:28,144 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanjay\Documents\git\MicroServices\microPrac\product\src\test\resources
+2020-02-26 11:13:37,798 [Worker-27: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:13:37,799 [Worker-27: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:13:37,799 [Worker-27: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:13:37,801 [Worker-27: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:13:37,802 [Worker-27: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanjay\Documents\git\MicroServices\microPrac\product\src\test\resources
+2020-02-26 11:14:40,622 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:14:40,623 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:14:40,623 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:14:40,626 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:14:40,627 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanjay\Documents\git\MicroServices\microPrac\product\src\test\resources
+2020-02-26 11:41:57,545 [Worker-33: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:41:57,547 [Worker-33: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-26 11:41:57,553 [Worker-33: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:41:57,556 [Worker-33: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:41:57,557 [Worker-33: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanjay\Documents\git\MicroServices\microPrac\product\src\test\resources
+2020-02-26 11:44:47,970 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:44:47,970 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:44:47,970 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:44:47,973 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:44:47,974 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanjay\Documents\git\MicroServices\microPrac\product\src\test\resources
+2020-02-26 11:55:56,803 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:55:56,803 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:55:56,804 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:55:56,808 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:55:56,808 [Worker-47: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanjay\Documents\git\MicroServices\microPrac\product\src\test\resources
+2020-02-26 11:57:42,126 [Worker-47: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:57:42,127 [Worker-47: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:57:42,127 [Worker-47: Launching ProductApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

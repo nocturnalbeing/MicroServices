@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProductApplicationTests" project="product" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.product.ProductApplicationTests" time="0.629" displayname="ProductApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.product.ProductApplicationTests]">
+    <testcase name="testRead" classname="com.product.ProductApplicationTests" time="0.503" displayname="testRead()" uniqueid="[engine:junit-jupiter]/[class:com.product.ProductApplicationTests]/[method:testRead()]"/>
+    <testcase name="contextLoads" classname="com.product.ProductApplicationTests" time="0.008" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.product.ProductApplicationTests]/[method:contextLoads()]"/>
+    <testcase name="createTest" classname="com.product.ProductApplicationTests" time="0.009" displayname="createTest()" uniqueid="[engine:junit-jupiter]/[class:com.product.ProductApplicationTests]/[method:createTest()]"/>
+    <testcase name="testPageable" classname="com.product.ProductApplicationTests" time="0.072" displayname="testPageable()" uniqueid="[engine:junit-jupiter]/[class:com.product.ProductApplicationTests]/[method:testPageable()]"/>
+    <testcase name="testUpdate" classname="com.product.ProductApplicationTests" time="0.037" displayname="testUpdate()" uniqueid="[engine:junit-jupiter]/[class:com.product.ProductApplicationTests]/[method:testUpdate()]"/>
+  </testsuite>
+</testrun>

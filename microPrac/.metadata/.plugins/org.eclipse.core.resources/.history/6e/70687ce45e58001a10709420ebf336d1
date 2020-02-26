@@ -15,11 +15,6 @@ public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	@Override
-	public String toString() {
-		return "Product [id=" + id + ", name=" + name + ", desc=" + desc + ", price=" + price + "]";
-	}
-
 	private String name;
 	@Column(name="description")
 	private String desc;

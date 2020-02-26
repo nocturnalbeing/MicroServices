@@ -79,7 +79,7 @@ class ProductApplicationTests {
 @Test
 void testPageable() 
 {
-Pageable pageable= PageRequest.of(0,10,Sort.by("name").descending().and(Sort.by("price")));
+Pageable pageable= PageRequest.of(0,10);
 Page<Product> resultList=repo.findAll(pageable)	;
 resultList.forEach(p->System.out.println(p));
 

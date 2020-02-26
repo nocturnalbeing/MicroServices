@@ -8,10 +8,6 @@ import java.util.Optional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 
 import com.product.entities.Product;
 import com.product.repository.ProductRepository;
@@ -76,14 +72,4 @@ class ProductApplicationTests {
 	/*
 	 * @Test void testDelete() { if (repo.existsById(5)) { repo.deleteById(3); } }
 	 */
-@Test
-void testPageable() 
-{
-Pageable pageable= PageRequest.of(0,10,Sort.by("name").descending().and(Sort.by("price")));
-Page<Product> resultList=repo.findAll(pageable)	;
-resultList.forEach(p->System.out.println(p));
-
-}
-
-
 }
