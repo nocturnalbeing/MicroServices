@@ -1,0 +1,44 @@
+package com.product;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+
+import java.util.Optional;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.product.entities.Product;
+import com.product.repository.ProductRepository;
+
+@SpringBootTest
+class ProductApplicationTests {
+	@Autowired
+	private ProductRepository repo;
+
+	@Test
+	void contextLoads() {
+	}
+	/*
+	 * @Test void createTest() { Product product=new Product();
+	 * product.setName("Iphone"); product.setPrice(1000d);
+	 * product.setDesc("double cam"); repo.save(product);
+	 * 
+	 * }
+	 */
+	
+	@Test
+	void testRead() 
+	{
+		Optional<Product> productOptional=repo.findById(10);
+		Product product = null;
+		if(productOptional.isPresent()) {
+		 product=productOptional.get();
+		}
+		else {
+			assertFalse(true);
+		}
+		assertEquals(product.getId(), 1);
+	}
+}
